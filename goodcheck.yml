@@ -1,0 +1,7 @@
+rules:
+  - id: use_tailwind_classes_for_styling
+    glob:
+      - "src/**/*.vue"
+    pattern:
+      token: "<style"
+    message: Tailwind CSS のクラスを使ってね！
