@@ -10,3 +10,9 @@ console.log("hello!");
     <img src="~/assets/conomi.jpg" width="100" height="100" alt="みのこのみ" />
   </div>
 </template>
+
+<style>
+.hoge {
+  color: red;
+}
+</style>
